@@ -20,8 +20,18 @@ Automatically audits three key AWS security controls:
 - Outputs a structured JSON report
 
 ## Sample Output
+AUTOMATED SECURITY CONTROLS AUDIT REPORT
+============================================================
+Date: 2026-05-07 20:29:41
+Total Findings: 1
 
-
+Finding #1
+Severity: HIGH
+Resource: IAM Password Policy
+Issue: No password policy configured
+Recommendation: Configure a strong password policy immediately
+============================================================
+Report saved to audit_report.json
 
 ## Technologies Used
 - Python
